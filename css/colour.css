@@ -1,0 +1,51 @@
+html {
+  background-color: #FFFF00;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* visited link */
+a:visited {
+  color: #333333;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: #333333;
+}
+
+.text-grey {
+  color: #333333;
+}
+
+.text-light-grey {
+  color: #95989A;
+}
+
+.text-white {
+  color: white;
+}
+
+.bucket {
+  height: 350px;
+  background-color: white;
+}
+
+.bucket-2 {
+  height: 350px;
+  background-color: #333333;
+}
+
+.bucket-3 {
+  height: 350px;
+  background-color: white;
+}

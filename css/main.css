@@ -1,0 +1,135 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-font {
+  font-weight: 700;
+}
+
+.hero-text-width {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.process-width {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.line-separator {
+  height: 1px;
+  background: #;
+  border-bottom: 2px solid #333333;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 50px;
+}
+
+.big-line-separator{
+  height: 1px;
+  background: #;
+  border-bottom: 2px solid #333333;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.process-text {
+  margin-top: 75px;
+}
+
+.process-image {
+  margin-top: 0px;
+  margin-bottom: 65px;
+  height: 90px;
+}
+
+.button {
+  width: 180px;
+  border-radius: 5px;
+  background-color: #FFFF00;
+  color: black;
+  border: 2px solid #333333;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.button-white {
+  width: 180px;
+  border-radius: 5px;
+  background-color: #333333;
+  color: white;
+  border: 2px solid white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-white:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-black {
+  width: 180px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: 2px solid #333333;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-black:hover {
+  background-color: #333333;
+  color: white;
+}
+
+.footer {
+  padding-top: 30px;
+  background-color: #333333;
+}
