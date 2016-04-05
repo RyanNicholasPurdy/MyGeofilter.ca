@@ -3,23 +3,23 @@ html {
 }
 
 /* unvisited link */
-a:link {
+header a:link {
   text-decoration: none;
   color: #333333;
 }
 
 /* visited link */
-a:visited {
+header a:visited {
   color: #333333;
 }
 
 /* mouse over link */
-a:hover {
+header a:hover {
   color: blue;
 }
 
 /* selected link */
-a:active {
+header a:active {
   color: #333333;
 }
 

@@ -88,6 +88,10 @@ body {
   cursor: pointer;
 }
 
+a .button-white {
+  color: white;
+}
+
 .button-white:hover {
   background-color: white;
   color: black;
