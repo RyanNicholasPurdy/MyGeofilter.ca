@@ -61,3 +61,16 @@ header a:active {
 .bucket-6 {
   background-color: #333333;
 }
+
+.bucket-7 {
+  background-color: #FFFF00;
+  height: 350px;
+}
+
+.bucket-image {
+  height: 350px;
+  background: url('../images/images/filter-banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
