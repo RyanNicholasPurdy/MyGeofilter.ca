@@ -35,6 +35,10 @@ header a:active {
   color: white;
 }
 
+.bg-grey {
+  background-color: #333333;
+}
+
 .bucket {
   height: 350px;
   background-color: white;
@@ -69,7 +73,7 @@ header a:active {
 
 .bucket-image {
   height: 350px;
-  background: url('../images/images/filter-banner.png');
+  background: url('../images/images/filter-banner-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
